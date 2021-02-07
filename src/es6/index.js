@@ -14,13 +14,15 @@ function newFunction2(name='anahi', age=22, country='CDMX') {
 }
 
 newFunction2();
-newFunction2('fernando', '24', 'MX');
+newFunction2('fernando', '23', 'MX');
 
 
 //phrase
 
 let hello = 'Hello';
 let world = 'World';
+
+
 let epicPhrase = hello + ' ' + world;
 console.log(epicPhrase);
 
