@@ -36,3 +36,15 @@ ahora es otra frase
 
 console.log(lorem);
 console.log(lorem2);
+
+let person = {
+  name: "Anahi",
+  age: 22,
+  country: "MX",
+};
+
+console.log(person.name, person.age);
+
+//es6
+let { name, age } = person;
+console.log(name, age);
