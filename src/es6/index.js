@@ -57,3 +57,7 @@ let education = ["David", ...team1, ...team2];
 console.log(education);
 
 var hola = "hola";
+
+import { hello } from "./clases";
+
+hello();
