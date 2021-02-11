@@ -48,3 +48,12 @@ console.log(person.name, person.age);
 //es6
 let { name, age } = person;
 console.log(name, age);
+
+let team1 = ["Oscar", "Julian", "Ricardo"];
+let team2 = ["Valeria", "Yesica", "Camila"];
+
+let education = ["David", ...team1, ...team2];
+
+console.log(education);
+
+var hola = "hola";
