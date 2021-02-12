@@ -12,3 +12,14 @@ const helloAsync = async () => {
 };
 
 helloAsync();
+
+const anpthorFunction = async () => {
+  try {
+    const hello = await helloWorld();
+    console.log(hello);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+anpthorFunction();
